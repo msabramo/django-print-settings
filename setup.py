@@ -69,18 +69,25 @@ for dirpath, dirnames, filenames in os.walk(extensions_dir):
     elif filenames:
         data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
 
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
 version = __import__('django_print_settings').__version__
 
 setup(
     name='django-print-settings',
     version=version,
     description="print_settings management command for Django",
+    long_description=read('README.rst'),
     author='Marc Abramowitz',
     author_email='marc@marc-abramowitz.com',
     url='http://github.com/msabramo/django-print-settings',
     license='New BSD License',
     platforms=['any'],
     packages=packages,
+    zip_safe=False,
+    include_package_data=True,
+    package_data={'': ['README.rst']},
     cmdclass=cmdclasses,
     data_files=data_files,
     classifiers=[
