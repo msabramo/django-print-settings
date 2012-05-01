@@ -9,9 +9,9 @@ Setting it up
 
 Install::
 
-    (``pip install``, ``easy_install``, etc.)
+    pip install django-print-settings
 
-Add ``django_print_settings`` to ``INSTALLED_APPS``::
+Add ``django_print_settings`` to ``INSTALLED_APPS`` in your Django project's ``settings.py``::
 
     INSTALLED_APPS = (
         'django_print_settings',
