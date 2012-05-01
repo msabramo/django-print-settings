@@ -1,5 +1,8 @@
+"""
+Django command similar to 'diffsettings' but shows all active Django settings.
+"""
 
-VERSION = (0, 1, "pre3")
+VERSION = (0, 1, "pre4")
 
 # Dynamically calculate the version based on VERSION tuple
 if len(VERSION) > 2 and VERSION[2] is not None:
