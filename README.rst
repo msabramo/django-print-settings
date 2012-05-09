@@ -1,6 +1,9 @@
 django-print-settings
 =====================
 
+.. image:: https://secure.travis-ci.org/msabramo/django-print-settings.png?branch=master
+   :target: http://travis-ci.org/msabramo/django-print-settings
+
 Adds a ``print_settings`` Django management command.
 
 
