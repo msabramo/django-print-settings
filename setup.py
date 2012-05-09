@@ -90,6 +90,8 @@ setup(
     package_data={'': ['README.rst']},
     cmdclass=cmdclasses,
     data_files=data_files,
+    tests_require=['Django>=1.3.1'],
+    test_suite='tests.test_import',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Development Status :: 5 - Production/Stable',
