@@ -46,3 +46,15 @@ For help:
 .. code-block:: bash
 
     python manage.py print_settings --help
+
+
+PyPI
+----
+
+https://pypi.python.org/pypi/django-print-settings
+
+
+Issues
+------
+
+Send your bug reports and feature requests to https://github.com/msabramo/django-print-settings/issues
