@@ -10,11 +10,15 @@ Adds a ``print_settings`` Django management command.
 Setting it up
 -------------
 
-Install::
+Install:
+
+.. code-block:: bash
 
     pip install django-print-settings
 
-Add ``django_print_settings`` to ``INSTALLED_APPS`` in your Django project's ``settings.py``::
+Add ``django_print_settings`` to ``INSTALLED_APPS`` in your Django project's ``settings.py``:
+
+.. code-block:: python
 
     INSTALLED_APPS = (
         'django_print_settings',
@@ -25,14 +29,20 @@ Add ``django_print_settings`` to ``INSTALLED_APPS`` in your Django project's ``s
 Usage
 -----
 
-Do::
+Do:
+
+.. code-block:: bash
 
     python manage.py print_settings
 
-or::
+or:
+
+.. code-block:: bash
 
     python manage.py print_settings --format=json
 
-For help::
+For help:
+
+.. code-block:: bash
 
     python manage.py print_settings --help
