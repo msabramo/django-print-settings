@@ -2,3 +2,5 @@ dist
 django_print_settings.egg-info
 build
 *.pyc
+*.egg
+.tox
